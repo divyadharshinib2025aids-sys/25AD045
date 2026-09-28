@@ -1,4 +1,7 @@
 package FarmStock.example.stock.Respository;
 
-public class CropRespository {
+import FarmStock.example.stock.models.Crop;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CropRespository extends JpaRepository<Crop, Long> {
 }
